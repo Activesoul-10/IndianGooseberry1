@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indian Gooseberry (Amla)</title>
+
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header data-aos="fade-down">
+  <div>Amla (Indian Gooseberry)</div>
+  <nav>
+    <a href="#scientific">Scientific Names</a>
+    <a href="#origin">Origin</a>
+    <a href="#uses">Uses</a>
+    <a href="#advantages">Advantages</a>
+    <a href="#disadvantages">Disadvantages</a>
+    <a href="#more">More Facts</a>
+  </nav>
+</header>
+
+<section class="section" id="scientific" data-aos="fade-up">
+  <h2>Scientific Names</h2>
+  <img src="https://via.placeholder.com/800x400?text=Amla+Image" alt="Indian Gooseberry" />
+  <ul>
+    <li><strong>Phyllanthus emblica</strong> is the main scientific name.</li>
+    <li>Also referred to as <strong>Emblica officinalis</strong>.</li>
+    <li>Belongs to the family <strong>Phyllanthaceae</strong>.</li>
+    <li>It is a deciduous tree, bearing small, round, and light green fruits.</li>
+  </ul>
+</section>
+
+<section class="section" id="origin" data-aos="fade-up">
+  <h2>Origin</h2>
+  <ul>
+    <li>Native to India and Southeast Asia.</li>
+    <li>Widely cultivated in tropical and subtropical climates.</li>
+    <li>Considered sacred in Indian culture and Ayurveda.</li>
+    <li>Ancient texts mention Amla as "Divyaushadhi" (divine medicine).</li>
+    <li>Historically used by sages and monks for its rejuvenating effects.</li>
+  </ul>
+</section>
+
+<section class="section" id="uses" data-aos="fade-up">
+  <h2>Uses</h2>
+  <ul>
+    <li>Consumed fresh, dried, pickled, or as juice and candy.</li>
+    <li>Used extensively in Ayurvedic and Unani medicine systems.</li>
+    <li>Key ingredient in hair oils, shampoos, and skin creams.</li>
+    <li>Boosts digestion and acts as a natural coolant.</li>
+    <li>Enhances liver health and helps detoxify the body.</li>
+    <li>Strengthens the respiratory system and prevents infections.</li>
+  </ul>
+</section>
+
+<section class="section" id="advantages" data-aos="fade-up">
+  <h2>Advantages</h2>
+  <ul>
+    <li>Richest natural source of Vitamin C, enhancing immunity.</li>
+    <li>Promotes healthy hair growth and prevents premature greying.</li>
+    <li>Improves skin texture, delays aging signs like wrinkles.</li>
+    <li>Regulates blood sugar levels and supports heart health.</li>
+    <li>Improves eyesight and prevents cataract formation.</li>
+    <li>Boosts metabolism and aids in weight management.</li>
+    <li>Strengthens bones and teeth due to its calcium content.</li>
+  </ul>
+</section>
+
+<section class="section" id="disadvantages" data-aos="fade-up">
+  <h2>Disadvantages</h2>
+  <ul>
+    <li>Excess consumption may cause acidity and digestive discomfort.</li>
+    <li>May lead to constipation if not taken with enough water.</li>
+    <li>Can interfere with diabetes medications (consult a doctor).</li>
+    <li>Overeating may cause dryness of skin and internal dehydration.</li>
+    <li>Allergic reactions are rare but possible in sensitive individuals.</li>
+  </ul>
+</section>
+
+<section class="section" id="more" data-aos="fade-up">
+  <h2>More Facts</h2>
+  <ul>
+    <li>Amla trees can live for over 50 to 60 years!</li>
+    <li>One small Amla contains Vitamin C equal to 20 oranges!</li>
+    <li>It is one of the three fruits used in the famous Ayurvedic formulation "Triphala".</li>
+    <li>Amla is known as an adaptogen — it helps the body adapt to stress.</li>
+    <li>The tree is also planted as a religious offering in temples.</li>
+    <li>In Sanskrit, Amla is called "Amalaki", meaning "the sustainer" or "the nurse".</li>
+  </ul>
+</section>
+
+<footer>
+  Made with ❤️ | All About Amla
+</footer>
+
+<button onclick="scrollToTop()" id="topButton" title="Go to top">⬆</button>
+
+<!-- Scroll To Top Script -->
+<script>
+  window.onscroll = function() { showButton() };
+  function showButton() {
+    const btn = document.getElementById("topButton");
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  }
+  function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+<!-- AOS Animation Script -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>
